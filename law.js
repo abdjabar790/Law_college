@@ -6,36 +6,29 @@ createApp({
       cards: [
         {
           id: 1,
-          title: "Cincinnati",
+          title: "الرؤية",
           desc:
-            "In different heights and shapes, the four versions of Floema low tables offer a variety of surfaces to satisfy different needs and uses in a contract environment, from work to moments of relaxation.",
+            ".الرؤية : تقدم على ضرورة ترسيخ المفاهيم القانونية الصحيحة المنسجمة مع التطور البشري، فهذا التطور يحتاج لأن يكون لدى الإنسان المعاصر معرفة و إدراك لماهية الحقوق التي يتمتع بها والواجبات الملقاة على عاتقه ، مما يمكنع من إدارة الدولة التي ينتمي إليها لمساهمته في بنائها وتطويرها وتذليل الصعوبات التي تعترضها ، وكل ذلك سينعكس إيجابا على استقرار المجتمع وخضوعه للضوابط القانونية التي تنظر لجميع الأفراد بشكل متساو دون تمييز أو إقصاء",
           photo:
-            "https://images.unsplash.com/photo-1649011327045-624a1bd2c3e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=853&q=80"
+            "https://iusr.university/wp-content/uploads/2023/10/logo_iusr_gradient.png"
         },
         {
           id: 2,
-          title: "Daytona",
+          title: "الرسالة",
           desc:
-            "The Circle Coffee table from Wendelbo emulates almost a visual trick. A frame where mass and gravity is suspended, and the slim and delicate structure support the marble top, like a hovering platform.",
+            "تبنى المجتمعات من هلال احترام القانون والإلتزام به وجعله مرجعية لجميع أفراد المجتمع وبحيث يكون خيا ر اللجوء للمحاكم ممكنا في حال هضم الحقوق أو الإساءة أو إرتكاب الأفعال المنافية للحقوق العامة ،وهذا كلع يجعل من المجتمع متماسكا صلبا لا فرقانية بين الأفراد أو على أساس اللون أو العرق أو الدين أو المركز الاجتماعي أو الانتماء ، بل يجعل الكل يشعرون بإنتمائهم لوطن أو دولة هي مظلة لجميع أبنائها .",
           photo:
-            "https://images.unsplash.com/photo-1615529182904-14819c35db37?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+            "https://www.elmin7a.com/wp-content/uploads/2020/04/faculty-of-law-min.png"
         },
         {
           id: 3,
-          title: "Indiana",
+          title: "الاهداف",
           desc:
-            "With an appearance that is at once light and elegant, the Workshop Coffee Table fits perfectly into any living room, serving as a traditional coffee table as well as side table.",
+            "قوم أهداف كلية الحقوق على إعداد جيل يحتكم للقانون وللضوابط الدستورية في تعاملاته المختلفة ، بحبث تكون حرية الرأي والفكر و الاجتماع و التعبير مثانة ومتاحة للجميع دون تميز، وهذا يؤدي لإنتشار الوعي في المجتمع و التقليل من حجم الجرائم والمخالفات او التجاوزات التي تؤثر سلبا على بناء الدولة.",
           photo:
-            "https://images.unsplash.com/flagged/photo-1588262516915-e342186ecdf6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+            "https://blog-ar.kuwaitmart.com/wp-content/uploads/2024/06/%D8%A7%D9%81%D8%B6%D9%84-%D9%85%D8%AD%D8%A7%D9%85%D9%8A-%D8%A8%D8%A7%D9%84%D8%AC%D9%87%D8%B1%D8%A7%D8%A13.webp"
         },
-        {
-          id: 4,
-          title: "Amarillo",
-          desc:
-            "Made from sustainably sourced solid American Oak, the Duo Table is composed of two seperate tops joined together on one side. The tops are solid and carved out to create a gentle lip. ",
-          photo:
-            "https://images.unsplash.com/photo-1622372738946-62e02505feb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=832&q=80"
-        }
+        
       ],
       currentNum: 0
     };
