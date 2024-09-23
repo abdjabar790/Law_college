@@ -220,7 +220,7 @@ li.active {
     align-items: flex-start;
   }
   header ul {
-    flex-direction: column;
+    display: flex;
   }
   header li {
     width: min-content;
@@ -232,8 +232,3 @@ li.active {
 }
 
 
-.first{
-
-
-    
-}

@@ -40,3 +40,90 @@ createApp({
       currentNum: 0
     };
   },
+  computed: {
+    currentCard() {
+      return this.cards[this.currentNum];
+    }
+  },
+  methods: {
+    playFoward() {
+      let tl = gsap.timeline({
+        defaults: {
+          duration: 0.7,
+          ease: "sine.out"
+        },
+        onComplete: () => {
+          this.playReverse();
+          if (this.currentNum >= 3) {
+            this.currentNum = 0;
+          } else {
+            this.currentNum++;
+          }
+        }
+      });
+      tl.to("#mask-1", {
+        yPercent: 100,
+        scaleY: 1.4
+      })
+        .to(
+          "#mask-2",
+          {
+            yPercent: -100,
+            scaleY: 1.4
+          },
+          "<"
+        )
+        .to(
+          "#card-info-title",
+          {
+            clipPath: `polygon(0 0, 100% 0, 100% 0%, 0% 0%)`
+          },
+          "<0.4"
+        )
+        .to(
+          "#card-info-desc",
+          {
+            clipPath: `polygon(0 0, 100% 0, 100% 0%, 0% 0%)`
+          },
+          "<0.3"
+        );
+    },
+    playReverse() {
+      let tl = gsap.timeline({
+        defaults: {
+          duration: 0.7,
+          ease: "sine.in"
+        }
+      });
+      tl.to("#mask-1", {
+        yPercent: -100,
+        scaleY: 1.4
+      })
+        .to(
+          "#mask-2",
+          {
+            yPercent: 100,
+            scaleY: 1.4
+          },
+          "<"
+        )
+        .to(
+          "#card-info-title",
+          {
+            clipPath: `polygon(0 0, 100% 0, 100% 100%, 0% 100%)`
+          },
+          "<0.2"
+        )
+        .to(
+          "#card-info-desc",
+          {
+            clipPath: `polygon(0 0, 100% 0, 100% 100%, 0% 100%)`
+          },
+          "<0.3"
+        );
+    },
+    nextCard() {
+      this.playFoward();
+    }
+  }
+}).mount("#app");
