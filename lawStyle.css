@@ -232,3 +232,40 @@ li.active {
 }
 
 
+.card-container2 {
+
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  text-align: center;
+}
+
+.card2 {
+  width: 200px;
+  margin: 50px;
+  box-shadow: 5px 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  color: antiquewhite;
+}
+
+.card2 img {
+  width: 200px;
+  height: 200px;
+}
+.fo{
+ color: rgb(246, 236, 155);
+ display: grid;
+ 
+ font-weight: bold;
+ font-size: 30px;
+ align-items: center;
+ justify-items: center;
+ position: inherit;
+ 
+}
+.First_ones{
+background-color: rgb(106, 119, 130);
+box-shadow:  #202020;
+border: 1px solid #ccc;
+
+}
