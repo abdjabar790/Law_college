@@ -1,15 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div></div>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CodePen - Table Flipping</title>
+    <link rel="stylesheet" href="../Law_college/lawStyle.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <title>Table Flipping | ICOM DIGITAL</title>
+        <link rel="stylesheet" href="../Law_college/lawStyle.css" />
+      </head>
+      <body>
+        <!-- partial:index.partial.html -->
+        <!DOCTYPE html>
+        <html lang="en">
+          <head>
+            <meta charset="UTF-8" />
+            <title>Table Flipping | ICOM DIGITAL</title>
+            <link rel="stylesheet" href="../Law_college/lawStyle.css" />
+          </head>
+          <body>
+            <!-- partial:index.partial.html -->
+            <div class="container" id="app">
+              <header>
+                <h1>Teds</h1>
+                <ul>
+                  <li>Message and objectives</li>
+                  <li>Faculty</li>
+                  <li>Graduation projects</li>
+                  <li  > <a href="#4">الاوائل</a></li>
+                  <li>Events and activities</li>
+                </ul>
+              </header>
+
+              <section>
+                <h4>Clearance > <span>Tables</span></h4>
+              </section>
+
+              <section>
+                <div class="card">
+                  <div class="card-info">
+                    <h1 id="card-info-title">{{ currentCard.title }}</h1>
+                    <p id="card-info-desc">{{ currentCard.desc }}</p>
+                    <a href="#">
+                      <p>More details</p>
+                      <svg viewBox="0 0 20 10">
+                        <line x1="0" y1="5" x2="20" y2="5" />
+                        <line x1="15" y1="0" x2="20" y2="5" />
+                        <line x1="15" y1="10" x2="20" y2="5" />
+                      </svg>
+                    </a>
+                  </div>
+                  <div class="card-photo">
+                    <div id="mask-1" class="mask"></div>
+                    <div id="mask-2" class="mask"></div>
+                    <a href="#" @click="nextCard">
+                      <p>Next</p>
+                      <svg viewBox="0 0 20 10">
+                        <line x1="0" y1="5" x2="20" y2="5" />
+                        <line x1="15" y1="0" x2="20" y2="5" />
+                        <line x1="15" y1="10" x2="20" y2="5" />
+                      </svg>
+                    </a>
+                    <img :src="currentCard.photo" />
+                  </div>
+                </div>
+              </section>
+            </div>
+            <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+            <script src="../Law_college/law.js"></script>
+          </body>
+        </html>
+        <!-- partial -->
+        <script src="../Law_college/law.js"></script>
+      </body>
+    </html>
+    <!-- partial -->
+    <script src="../Law_college/law.js"></script>
 
 
-    <div class="First">
+      
+      <br><br><br><br><br><br><br>
+                      <!-- قسم الهيئة التدريسية -->
+                      <div class="faculty-section">
+                        <section class="fo"><h1>الهيئة التدريسية في كلية الحقوق</h1></section>
+                        <div class="card-container3">
+                          <div class="card3">
+                            <img
+                              src="https://cdn-icons-png.flaticon.com/512/194/194938.png"
+                              alt="Professor Avatar"
+                            />
+                            <h2>الإسم: د. علي</h2>
+                            <p>التخصص: القانون الجنائي</p>
+                          </div>
+                          <div class="card3">
+                            <img
+                              src="https://cdn-icons-png.flaticon.com/512/194/194935.png"
+                              alt="Professor Avatar"
+                            />
+                            <h2>الإسم: د. سمية</h2>
+                            <p>التخصص: القانون التجاري</p>
+                          </div>
+                          <div class="card3">
+                            <img
+                              src="https://cdn-icons-png.flaticon.com/512/194/194937.png"
+                              alt="Professor Avatar"
+                            />
+                            <h2>الإسم: د. يوسف</h2>
+                            <p>التخصص: القانون الدولي</p>
+                          </div>
+                          <div class="card3">
+                            <img
+                              src="https://cdn-icons-png.flaticon.com/512/194/194936.png"
+                              alt="Professor Avatar"
+                            />
+                            <h2>الإسم: د. مريم</h2>
+                            <p>التخصص: القانون الإداري</p>
+                          </div>
+                        </div>
+                      </div>
+                    
+                        <br><br><br><br><br>
+
+
+                        
 
 
     <div class="grad_pro">
@@ -43,11 +162,69 @@
     
         <div>
             <p>&copy; 2024 كلية الحقوق - جميع الحقوق محفوظة</p>
+
+
+
+
+
+     <!-- هاد قسم الاوائل اذا كان قسمك فوق اكتب فوقه -->
+    <div class="First_ones" id="4">
+     <section class="fo"><h1>الاوائل المتفوقين في كلية الحقوق</h1></section>
+      <div class="card-container2">
+      
+        <div class="card2">
+            <img src="https://cdn5.vectorstock.com/i/1000x1000/49/49/student-graduated-avatar-isolated-vector-11224949.jpg" alt="Female Avatar">
+            <h2>الإسم : سامي</h2>
+            <p> 97.6%: المعدل التراكمي</p>
+        </div>
+        <div class="card2">
+            <img src="https://us.123rf.com/450wm/hvostik/hvostik1603/hvostik160300358/54767450-graduate-student-avatar-student-sch%C3%BClersymbol-flache-design-stil-bildung-graduierung-isoliert.jpg" alt="Female Avatar">
+            <h2>الإسم : خالد</h2>
+            <p >  98.3%: المعدل التراكمي </p>
+        </div>
+        <div class="card2">
+          <img src="https://us.123rf.com/450wm/hvostik/hvostik1603/hvostik160300358/54767450-graduate-student-avatar-student-sch%C3%BClersymbol-flache-design-stil-bildung-graduierung-isoliert.jpg" alt="Female Avatar">
+          <h2>الإسم : مصطفى</h2>
+          <p >  98.3%: المعدل التراكمي </p>
+      </div>
+        <div class="card2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEBVkAEdccq2-a1lLuYdCeW80whu8Rd3zhPGb5dRhzSNA2ILqI2HHtwjm1kDxUnUHlJw0&usqp=CAU" alt="No Image Available">
+            <h2>الإسم : اية</h2>
+            <p   >  99.4%:المعدل التراكمي</p>
+
         </div>
     </div>
 
+
+
+    <div class="card-container2">
+      
+      <div class="card2">
+          <img src="https://cdn5.vectorstock.com/i/1000x1000/49/49/student-graduated-avatar-isolated-vector-11224949.jpg" alt="Female Avatar">
+          <h2>الإسم : يوسف</h2>
+          <p> 92.6%: المعدل التراكمي</p>
+      </div>
+      <div class="card2">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEBVkAEdccq2-a1lLuYdCeW80whu8Rd3zhPGb5dRhzSNA2ILqI2HHtwjm1kDxUnUHlJw0&usqp=CAU" alt="No Image Available">
+        <h2>الإسم : اسراء</h2>
+        <p   >  94.4%:المعدل التراكمي</p>
     </div>
+      <div class="card2">
+          <img src="https://us.123rf.com/450wm/hvostik/hvostik1603/hvostik160300358/54767450-graduate-student-avatar-student-sch%C3%BClersymbol-flache-design-stil-bildung-graduierung-isoliert.jpg" alt="Female Avatar">
+          <h2>الإسم : جاسم</h2>
+          <p >  91.3%: المعدل التراكمي </p>
+      </div>
+      <div class="card2">
+        <img src="https://us.123rf.com/450wm/hvostik/hvostik1603/hvostik160300358/54767450-graduate-student-avatar-student-sch%C3%BClersymbol-flache-design-stil-bildung-graduierung-isoliert.jpg" alt="Female Avatar">
+        <h2>الإسم : محمد</h2>
+        <p >  96.3%: المعدل التراكمي </p>
+    </div>
+      
+  </div>
+  </div>
+    
+      <h1> saleh</h1>
 
 
-</body>
+  </body>
 </html>
