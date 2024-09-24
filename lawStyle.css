@@ -240,6 +240,7 @@ li.active {
   text-align: center;
 }
 
+
 .card2 {
   width: 200px;
   margin: 50px;
@@ -247,6 +248,7 @@ li.active {
   text-align: center;
   color: antiquewhite;
 }
+
 
 .card2 img {
   width: 200px;
@@ -264,7 +266,7 @@ li.active {
  
 }
 .First_ones{
-background-color: rgb(106, 119, 130);
+background-color: rgb(100, 137, 167);
 box-shadow:  #202020;
 border: 1px solid #ccc;
 
