@@ -322,3 +322,101 @@ border: 1px solid #ccc;
   color: #555;
 }
 
+/* تنسيق أساسي للصفحة */
+body {
+  font-family: 'Cairo', sans-serif;
+  background: url('law-background.png') no-repeat center center fixed;
+  background-size: cover;
+  color: #2c3e50; /* لون النص الأساسي */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: rgba(0, 0, 0, 0.6); /* خلفية سوداء شفافة */
+}
+
+/* ترويسة الصفحة */
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 20px;
+  color: #ecf0f1; /* لون أبيض فاتح */
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.8em;
+  color: #bdc3c7; /* لون رمادي فاتح */
+  margin-bottom: 30px;
+}
+
+/* تنسيق منطقة المشاريع */
+.grad_pro {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: rgba(236, 240, 241, 0.2); /* خلفية شفافة بألوان رمادية فاتحة */
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+/* تنسيق كل مشروع */
+.grad_pro div > div {
+  background-color: rgba(52, 152, 219, 0.8); /* خلفية بلون أزرق هادئ */
+  margin-bottom: 20px;
+  padding: 20px;
+  border-left: 5px solid #3498db;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+/* تأثير عند تمرير الماوس على المشروع */
+.grad_pro div > div:hover {
+  background-color: #2980b9; /* أزرق غامق عند التمرير */
+  color: #ecf0f1;
+  transform: translateY(-5px);
+}
+
+/* تنسيق عناوين المشاريع */
+.grad_pro h3 {
+  margin: 0;
+  font-size: 1.6em;
+  color: #ecf0f1; /* النص باللون الأبيض */
+}
+
+/* تأثير اللون عند التمرير فوق العنوان */
+.grad_pro div > div:hover h3 {
+  color: #ecf0f1;
+}
+
+/* تنسيق الفقرات */
+.grad_pro p {
+  margin: 10px 0;
+  font-size: 1.1em;
+  color: #ecf0f1; /* لون النص أبيض فاتح */
+}
+
+/* تنسيق الروابط */
+.grad_pro a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* تأثير عند تمرير الماوس على الروابط */
+.grad_pro a:hover {
+  background-color: #c0392b;
+}
+
+/* تنسيق الفوتر */
+.grad_pro p:last-of-type {
+  text-align: center;
+  font-size: 1em;
+  color: #95a5a6;
+  margin-top: 50px;
+}
