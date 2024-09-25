@@ -250,17 +250,18 @@ li.active {
   color: antiquewhite;
   background-color: darkblue;
   border: 1px black solid;
-  
+  box-shadow: black;
 }
 
 
 .card2 img {
   width: 200px;
   height: 200px;
+  border: 5px black solid;
+  box-shadow: #202020 ;
 }
-.fo{
+.fo h1{
  color: rgb(255, 255, 254);
- display: grid;
  
  font-weight: bold;
  font-size: 30px;
