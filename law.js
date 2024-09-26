@@ -120,3 +120,8 @@ createApp({
     }
   }
 }).mount("#app");
+
+function toggleDetails(event) {
+    const details = event.querySelector('p');
+    details.style.display = details.style.display === 'block' ? 'none' : 'block';
+}
