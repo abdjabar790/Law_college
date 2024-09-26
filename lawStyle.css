@@ -350,9 +350,6 @@ border: 1px solid #ccc;
 
 
 
-
-
-
 .grad_pro {
   background-color: #656262; /* لون خلفية فاتح */
   border: 1px solid #ddd; /* حدود خفيفة حول القسم */
@@ -404,10 +401,10 @@ a:hover {
   text-decoration: underline; /* إضافة خط أسفل الرابط عند المرور */
 }
 
-footer {
-  text-align: center; /* محاذاة النص في الفوتر إلى المنتصف */
-  margin-top: 20px; /* مسافة فوق الفوتر */
-}
+
+
+
+
 
 
 
@@ -496,53 +493,5 @@ footer {
 
 
 
-
-
-.container {
-  background-color: #f4f4f9; /* لون خلفية فاتح */
-  padding: 30px; /* مساحة داخلية */
-  border-radius: 12px; /* زوايا مستديرة */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* ظل خفيف */
-  max-width: 800px; /* عرض أقصى */
-  margin: auto; /* توسيط القسم */
-}
-
-#event1 {
-  color: #333; /* لون عنوان القسم */
-  text-align: center; /* توسيط العنوان */
-  margin-bottom: 20px; /* مسافة أسفل العنوان */
-}
-
-.event {
-  background-color: #ffffff; /* لون خلفية الفعالية */
-  border: 1px solid #ddd; /* حدود خفيفة حول الفعالية */
-  border-radius: 8px; /* زوايا مستديرة للفعالية */
-  padding: 15px; /* مساحة داخلية للفعالية */
-  margin: 15px 0; /* مسافة بين الفعاليات */
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* ظل خفيف للفعالية */
-  transition: transform 0.3s, box-shadow 0.3s; /* تأثير عند التحويم */
-  cursor: pointer; /* تغيير شكل المؤشر عند المرور */
-}
-
-.event:hover {
-  transform: translateY(-5px); /* تحريك الفعالية لأعلى عند التحويم */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* زيادة الظل عند التحويم */
-}
-
-
-.date {
-  color: #555; /* لون تاريخ الفعالية */
-  font-style: italic; /* جعل النص مائل */
-  margin-bottom: 10px; /* مسافة تحت التاريخ */
-}
-
-p {
-  color: #666; /* لون نص الفعالية */
-  line-height: 1.6; /* ارتفاع السطر لتحسين القراءة */
-}
-
-#event2 {
-  color: #007bff; /* لون عنوان الفعالية */
-  margin-bottom: 10px; /* مسافة تحت عنوان الفعالية */}
 
 
