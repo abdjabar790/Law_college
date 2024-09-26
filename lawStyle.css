@@ -250,18 +250,17 @@ li.active {
   color: antiquewhite;
   background-color: darkblue;
   border: 1px black solid;
-  box-shadow: black;
+  
 }
 
 
 .card2 img {
   width: 200px;
   height: 200px;
-  border: 5px black solid;
-  box-shadow: #202020 ;
 }
-.fo h1{
+.fo{
  color: rgb(255, 255, 254);
+ display: grid;
  
  font-weight: bold;
  font-size: 30px;
@@ -326,7 +325,6 @@ border: 1px solid #ccc;
   color: #555;
 }
 
-<<<<<<< HEAD
  .container {
             width: 80%;
             margin: 0 auto;
@@ -357,7 +355,7 @@ border: 1px solid #ccc;
             line-height: 1.5;
         }
 
-=======
+
 /* تنسيق أساسي للصفحة */
 body {
   font-family: 'Cairo', sans-serif;
@@ -374,7 +372,7 @@ body {
 h1 {
   text-align: center;
   font-size: 2.5em;
-  margin-top: 20px;
+  margin-top: 21px;
   color: #ecf0f1; /* لون أبيض فاتح */
 }
 
@@ -382,7 +380,7 @@ h2 {
   text-align: center;
   font-size: 1.8em;
   color: #bdc3c7; /* لون رمادي فاتح */
-  margin-bottom: 30px;
+  margin-bottom: 31px;
 }
 
 /* تنسيق منطقة المشاريع */
@@ -416,7 +414,7 @@ h2 {
 /* تنسيق عناوين المشاريع */
 .grad_pro h3 {
   margin: 0;
-  font-size: 1.6em;
+  font-size: 1.7em;
   color: #ecf0f1; /* النص باللون الأبيض */
 }
 
@@ -427,7 +425,7 @@ h2 {
 
 /* تنسيق الفقرات */
 .grad_pro p {
-  margin: 10px 0;
+  margin: 11px 0;
   font-size: 1.1em;
   color: #ecf0f1; /* لون النص أبيض فاتح */
 }
@@ -456,4 +454,76 @@ h2 {
   color: #95a5a6;
   margin-top: 50px;
 }
->>>>>>> graduted_projects
+
+/* تصميم الفوتر */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  margin: 20px 0;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #f0a500; /* لون برتقالي فاتح */
+}
+
+.footer-section p, .footer-section ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-section ul {
+  list-style-type: none;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #f0a500; /* لون برتقالي فاتح */
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-links a img {
+  width: 30px;
+  transition: transform 0.3s;
+}
+
+.social-links a:hover img {
+  transform: scale(1.2);
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+  font-size: 14px;
+  color: #bbb;
+}
