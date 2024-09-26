@@ -352,13 +352,62 @@ border: 1px solid #ccc;
 
 
 
-/* تنسيق أساسي للصفحة */
 
+.grad_pro {
+  background-color: #656262; /* لون خلفية فاتح */
+  border: 1px solid #ddd; /* حدود خفيفة حول القسم */
+  padding: 20px; /* مساحة داخلية حول المحتوى */
+  border-radius: 10px; /* زوايا مستديرة */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* ظل خفيف لإضافة عمق */
+ 
+  margin: auto; /* توسيط القسم في الصفحة */
+}
 
+h1 {
+  color: #333; /* لون عنوان المشروع */
+  text-align: center; /* محاذاة إلى المنتصف */
+}
 
+h2 {
+  color: #555; /* لون العناوين الفرعية */
+  margin-top: 20px; /* مسافة فوق العنوان */
+  text-align: center; /* توسيط عنوان القائمة */
+}
 
+.card55 {
+  background-color: #ffffff; /* لون خلفية البطاقة */
+  border: 1px solid #ddd; /* حدود البطاقة */
+  border-radius: 8px; /* زوايا مستديرة للبطاقة */
+  padding: 15px; /* مساحة داخلية للبطاقة */
+  margin: 15px 0; /* مسافة بين البطاقات */
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* ظل خفيف للبطاقة */
+}
 
+h3 {
+  color: #007bff; /* لون مميز لعناوين المشاريع */
+  margin-bottom: 10px; /* مسافة تحت عنوان المشروع */
+  text-align: center; /* توسيط عنوان المشروع */
+}
 
+p {
+  color: #666; /* لون النصوص */
+  line-height: 1.6; /* ارتفاع السطر لتحسين القراءة */
+  text-align: center; /* توسيط النص داخل الفقرة */
+}
+
+a {
+  color: #007bff; /* لون الروابط */
+  text-decoration: none; /* إزالة الخط أسفل الروابط */
+}
+
+a:hover {
+  text-decoration: underline; /* إضافة خط أسفل الرابط عند المرور */
+}
+
+footer {
+  text-align: center; /* محاذاة النص في الفوتر إلى المنتصف */
+  margin-top: 20px; /* مسافة فوق الفوتر */
+}
 
 
 
@@ -443,3 +492,57 @@ footer {
   font-size: 14px;
   color: #bbb;
 }
+
+
+
+
+
+
+.container {
+  background-color: #f4f4f9; /* لون خلفية فاتح */
+  padding: 30px; /* مساحة داخلية */
+  border-radius: 12px; /* زوايا مستديرة */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+  max-width: 800px; /* عرض أقصى */
+  margin: auto; /* توسيط القسم */
+}
+
+#event1 {
+  color: #333; /* لون عنوان القسم */
+  text-align: center; /* توسيط العنوان */
+  margin-bottom: 20px; /* مسافة أسفل العنوان */
+}
+
+.event {
+  background-color: #ffffff; /* لون خلفية الفعالية */
+  border: 1px solid #ddd; /* حدود خفيفة حول الفعالية */
+  border-radius: 8px; /* زوايا مستديرة للفعالية */
+  padding: 15px; /* مساحة داخلية للفعالية */
+  margin: 15px 0; /* مسافة بين الفعاليات */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* ظل خفيف للفعالية */
+  transition: transform 0.3s, box-shadow 0.3s; /* تأثير عند التحويم */
+  cursor: pointer; /* تغيير شكل المؤشر عند المرور */
+}
+
+.event:hover {
+  transform: translateY(-5px); /* تحريك الفعالية لأعلى عند التحويم */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* زيادة الظل عند التحويم */
+}
+
+
+.date {
+  color: #555; /* لون تاريخ الفعالية */
+  font-style: italic; /* جعل النص مائل */
+  margin-bottom: 10px; /* مسافة تحت التاريخ */
+}
+
+p {
+  color: #666; /* لون نص الفعالية */
+  line-height: 1.6; /* ارتفاع السطر لتحسين القراءة */
+}
+
+#event2 {
+  color: #007bff; /* لون عنوان الفعالية */
+  margin-bottom: 10px; /* مسافة تحت عنوان الفعالية */}
+
+
